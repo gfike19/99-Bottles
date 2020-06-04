@@ -2,8 +2,8 @@ package com.gfike.Main;
 
 public class Bottle {
     public String verse(int i) {
-        return "99 bottles of beer on the wall, 99 bottles of beer." +
-        "\nTake one down and pass it around, 98 bottles of beer on the wall.";
+        return String.format("%s bottles of beer on the wall, %s bottles of beer.", i, i) +
+        String.format("\nTake one down and pass it around, %s bottles of beer on the wall.", i -1);
     }
 
     public String verses(int i, int i1) {

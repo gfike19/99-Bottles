@@ -19,12 +19,12 @@ public class BottleTest {
         , b.verse(99));
     }
 
-//    @Test
-//    public void anotherVerse() {
-//        assertEquals("89 bottles of beer on the wall, 89 bottles of beer. " +
-//                        "\nTake one down and pass it around, 88 bottles of beer on the wall."
-//        , b.verse(89));
-//    }
+    @Test
+    public void anotherVerse() {
+        assertEquals("89 bottles of beer on the wall, 89 bottles of beer. " +
+                        "\nTake one down and pass it around, 88 bottles of beer on the wall."
+        , b.verse(89));
+    }
 //
 //    @Test
 //    public void verse2(){
